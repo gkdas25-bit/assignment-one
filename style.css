@@ -13,6 +13,7 @@
     font-weight: bold;
     color:white;
     cursor: pointer;
+    /* margin-top: 16px; */
 }
 .btn:hover{
     background-color: #026322;
@@ -165,4 +166,30 @@ nav .menu a{
     font-size: 40px;
     text-transform: capitalize;
     margin-top: 16px;
+}
+
+/* Footer section  */
+
+#footer{
+    background-color:#F7F6F2;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+}
+#footer .footer-container{
+    text-align: center;
+    color:gray;
+}
+.section-heading h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 16px;
+    color:black;
+}
+.section-heading p{
+    margin-top: 24px;
+}
+.footer-container.footer-info p{
+    margin-bottom: 19px;
 }
