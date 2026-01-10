@@ -14,7 +14,18 @@
     color:white;
     cursor: pointer;
 }
+.btn:hover{
+    background-color: #026322;
+}
+.btn-Access:hover{
+    background-color: #026322;
+}
+.btn-block:hover{
+    background-color: #026322;
+}
+
 /* navbar section  */
+
 nav{
     background-color: #ffffff;
     width:71%;
@@ -37,3 +48,91 @@ nav .menu a{
     color:black;
     text-decoration: none;
 }
+
+/* Banner section  */
+
+#banner{
+    background-image: url("images/hero-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    line-height: 120px;
+}
+#banner .btn-Access{
+    padding: 5px;
+    border-radius: 100px;
+}
+#banner h1{
+    text-align: center;
+    color:white;
+    font-size: 35px;
+}
+#banner h1 .sparate{
+    color:#039e36;
+}
+#banner p{
+    color:white;
+}
+.btn-Access{
+    color:#30B868;
+    
+}
+.btn-block{
+    background-color:gray;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+}
+/* ============== notes part ============= */
+
+ #notes{
+    margin: 67px;
+} 
+ #notes .notes-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+#notes .notes-container .section-heading h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+#notes .notes-container .section-heading p{
+    margin-top: 16px;
+    text-align: center;
+    color: #757575;
+}
+#notes .notes-container .notes-box{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+.notes-box .notes-card{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #00000027;
+    max-width: 267px;
+    border-radius: 10px;
+}
+.notes-card img{
+    max-width: 44px;
+    margin-top: 70px;
+    background-color: red;
+    border-radius: 100px;
+    padding: 10px;
+}
+.notes-card h3{
+    font-size: 24px;
+    color:#181818;
+    margin-top: 16px;
+}
+.notes-card p{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 16px;
+} 
