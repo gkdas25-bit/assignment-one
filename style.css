@@ -92,7 +92,7 @@ nav .menu a{
  #notes{
     margin: 67px;
 } 
- #notes .notes-container{
+ #notes .notes-container {
     width:71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -136,3 +136,33 @@ nav .menu a{
     color: #757575;
     margin-top: 16px;
 } 
+
+/* second Brain Section  */
+.second-container{
+    margin: 12px;
+    display: flex;
+    max-width: 1360px;
+    
+}
+.second-container .writing{
+    margin: 120px;
+}
+.writing-one p{
+    font-size: 15px;
+    margin-top: 16px;
+}
+.writing-one .para-par{
+    margin-top: 16px;
+    color: #757575;
+}
+.writing-one .para{
+    font-size: 15px;
+    text-transform: uppercase;
+    color:green;
+    margin-top: 16px;
+}
+.writing-one h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
